@@ -11,16 +11,17 @@ ku='\033[33;1m' #kuning
 #Capek anjing buat nya
 echo
 echo
-python2 security.py
-echo
 clear
-echo
+
+
+
+
 
 echo -e  "_____________________________________________________________"
 echo -e  "Tools    : User Termux3 $white         " |lolcat
 echo -e  "Creadby  : Mr.Rmdhn $white   " |lolcat
 echo -e  "Contact  : ramahore14@gmail.com $white " |lolcat
-echo -e  "_____________________________________"
+echo -e  "_____________________________________________________________"
 
 sleep 1
 echo
