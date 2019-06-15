@@ -12,19 +12,9 @@ ku='\033[33;1m' #kuning
 echo
 echo
 clear
+echo
 
-echo -e  "_____________________________________________________________"
-echo -e  "Tools    : USER TERMUX3 $white         " |lolcat
-echo -e  "Creadby  : MR.DREAMSS $white   " |lolcat
-echo -e  "Contact  : ramahore14@gmail.com $white " |lolcat
-echo -e  "_____________________________________________________________"
-
-
-
-
-
-
-sleep 1
+sleep 0
 echo
 echo $cy""
 echo $cy"TOOLS TERMUX3"
