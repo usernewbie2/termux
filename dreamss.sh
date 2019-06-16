@@ -14,12 +14,47 @@ echo
 clear
 echo
 
-sleep 0
+sleep 5
+echo $cy""
+echo $pu"/"$ku"Created : MR.DR34MS"
+echo $pu"/"$ku"No Bacotz"
+echo $pu"/"$ku"Tarantula-Hacker"
+echo $pu"/"$ku"Type Campuran"
+echo $cy""
 echo
-echo $cy""
-echo $cy"TOOLS TERMUX3"
-echo $cy""
+
+sleep 1
+echo $i"    /\_\     AUTHOR    : MR.DR34MS"
+sleep 1
+echo $i"   /././_    WA        : 087773390886"
+sleep 1
+echo $i"  /./_/\.\   GMAIL     : ramahore14@gmail.com"
+sleep 1
+echo $i"  \.\/..\.\  VERSION   : 1.5"
+sleep 1
+echo $i"/\.\../\.\_\ TYPE      : INSTALLER"
+sleep 1
+echo $i"\.\/..\.\/_/ UPDATE    : 23 Mei 2019"
+sleep 1
+echo $i" \../\.\_\   YOUTUBE   : Blom Sempet"
+sleep 1
+echo $i"  \/_/././   TELEGRAM  : Blom Sempet"
+sleep 1
+echo $i"    /././    STATUS    : ACTIVE"
+sleep 1
+echo $i"    \/_/     TOOL      : 40"
+sleep 1
 echo
+echo $cy""
+echo $cy"DAFTAR TOOLS"
+echo $cy""
+echo
+
+
+
+
+
+
 
 sleep 1
 echo "==================================================="
@@ -73,6 +108,36 @@ echo $pu"24. Install Weeman (Buat Phising)"
 echo $pu"==================================================="
 echo $cy"25. Hack CCTV"
 echo $cy"==================================================="
+echo $me"26. Webdav (Buat Deface)"
+echo $me"==================================================="
+echo $i"27. SpamCall (NEW)"
+echo $i"==================================================="
+echo $bi"28. Spam Sms"
+echo $bi"==================================================="
+echo $pur"29. Gps Tracking"
+echo $pur"==================================================="
+echo $i"30. Wifi HACKER (Root)"
+echo $i"==================================================="
+echo $ku"31. Install Hammer (DDOS)"
+echo $ku"==================================================="
+echo $cy"32. Install Tools BAJINGANv6"
+echo $cy"==================================================="
+echo $pu"33. Install MBF 4x speeed"
+echo $pu"==================================================="
+echo $me"34. Brute Force FB"
+echo $me"==================================================="
+echo $i"35. SpamFb"
+echo $i"==================================================="
+echo $bi"36. Install SOCIAL BOX"
+echo $bi"==================================================="
+echo $pu"37. Auto Followers IG"
+echo $pu"==================================================="
+echo $cy"38. Brute Force IG"
+echo $cy"==================================================="
+echo $pur"39. Http Server Phising Facebook"
+echo $pur"==================================================="
+echo $ku"40. Vitex ( Virus Txt Wa)"
+echo $ku"===================================================="
 
 read -p"[ SELECT NUMBER] : " pil;
 
@@ -312,6 +377,173 @@ git clone https://github.com/kancotdiq/ipcs
 cd ipcs
 python2 scan.py
 fi
+
+if [ $pil = 26 ]
+then
+clear
+git clone https://github.com/ClayHackerTeam/webdav
+cd webdav
+sh webdav.sh
+fi
+
+if [ $pil = 27 ]
+then
+clear
+apt install axel -y
+git clone https://github.com/Aditya021/SpamCall
+cd SpamCall
+rm SpamCall.php
+axel https://raw.githubusercontent.com/my-teach/nuyul-vip/master/SpamCall.php
+php SpamCall.php
+fi
+
+if [ $pil = 28 ]
+then
+clear
+git clone https://github.com/KANG-NEWBIE/SpamSms
+cd spam3r
+php run.php
+fi
+
+if [ $pil = 29 ]
+then
+clear
+pkg update && pkg upgrade -y
+pkg install git
+pkg install php -y
+git clone https://github.com/indosecid/gps_tracking
+cd gps_tracking
+php gps.php
+fi
+
+if [ $pil = 30 ]
+then
+clear
+pkg install git -y
+git clone https://github.com/esc0rtd3w/wifi-hacker
+cd wifi-hacker
+chmod +x wifi-hacker.sh
+sh wifi-hacker.sh
+fi
+
+if [ $pil = 31 ]
+then
+clear
+pkg install python
+pkg install git
+git clone https://github.com/cyweb/hammer
+cd hammer
+python hammer.py
+fi
+
+if [ $pil = 32 ]
+then
+clear
+pkg install python2 -y
+pkg install git -y
+pkg install nano -y
+pkg install figlet -y
+pkg install cowsay -y
+pkg install ruby
+gem install lolcat
+pip2 install lolcat
+git clone https://github.com/DarknessCyberTeam/BAJINGANv6
+cd BAJINGANv6
+sh BAJINGAN.sh
+fi
+
+if [ $pil = 33 ]
+then
+clear
+git clone https://github.com/nasirxo/flb2
+cd flb2
+python2 flb2.py
+fi
+
+if [ $pil = 34 ]
+then
+clear
+pkg install python2 -y
+pkg install git -y
+pip2 install bs4
+pip2 install mechanize
+pip2 install cookielib
+git clone https://github.com/Cabdulahi/fbb
+cd fbb
+python2 fbb+.py
+fi
+
+if [ $pil = 35 ]
+then
+clear
+git clone https://github.com/Cabdulahi/Fbspam
+cd Fbspam
+bash install.sh
+python2 Fbspam.py
+fi
+
+if [ $pil = 36 ]
+then
+clear
+pkg install git
+git clone https://github.com/TunisianEagles/SocialBox
+cd SocialBox
+chmod +x SocialBox.sh
+chmod +x install-sb.sh
+./install-sb.sh
+./SocialBox.sh
+fi
+
+if [ $pil = 37 ]
+then
+clear
+pkg install git
+git clone https://github.com/ikiganteng/bot-igeh
+cd bot-igeh
+unzip node_modules.zip
+npm install https://github.com/huttarichard/instagram-private-api
+npm audit fix
+ls
+fi
+
+if [ $pil = 38 ]
+then
+clear
+pkg install git -y
+pkg install php -y
+pkg install python2
+pkg install python2-dev
+pkg install php -y
+pkg install nano
+pkg install cowsay
+pip2 install lolcat
+git clone https://github.com/DarkCurut08/DarkCurut08
+cd DarkCurut08
+sh Moreno77.sh
+fi
+
+if [ $pil = 39 ]
+then
+clear
+pkg install git -y
+pkg install openssh -y
+pip2 install mechanize
+pip2 install requests
+pip install bs4
+git clone https://github.com/Cabdulahi/cadowx
+cd cadowx
+chmod +X *
+python2 cadowx.py
+fi
+
+if [ $pil = 40 ]
+then
+clear
+git clone https://github.com/Jhosua00/virtex
+cd virtex
+sh virtex.sh
+fi
+
 
 
 if [ $pil = 00 ]
