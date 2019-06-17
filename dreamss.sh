@@ -47,8 +47,8 @@ echo $cy"DAFTAR TOOLS"
 echo $cy""
 echo
 sleep 1
-echo $i"===================================================="
-echo $cy"[0]"$pu" Install Bahan Dulu"
+echo "====================================================="
+echo $cy"[0]"$pu" Install Bahan"
 echo "==================================================="
 echo $i"1. Install OSIF             "
 echo $i"==================================================="
@@ -253,7 +253,7 @@ echo $ku"==================================================="
 
 read -p"[ SELECT NUMBER] : " pil;
 
-if [ $pil = 1 ]
+if [ $pil = 0 ]
 then
 clear
 pkg install python2
@@ -278,7 +278,7 @@ cd termux
 sh dreamss.sh
 fi
 
-if [ $pil = 0 ]
+if [ $pil = 1 ]
 then
 clear
 sleep 1
