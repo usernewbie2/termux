@@ -13,11 +13,6 @@ echo
 echo
 clear
 echo
-sleep 1
-echo $cy"["$i"H"$cy"]" $i"How To Get Username & Password"
-echo $cy"["$i"I"$cy"]" $i"INFO TOOLS"
-echo
-read -p "[SELECT NUMBER] : " pil;
 sleep 5
 echo $cy""
 echo $pu"/"$ku"Created : MR.DR34MS"
@@ -46,13 +41,14 @@ sleep 1
 echo $i"    /././    STATUS    : ACTIVE"
 sleep 1
 echo $i"    \/_/     TOOL      : 40"
-sleep 1
 echo
 echo $cy""
 echo $cy"DAFTAR TOOLS"
 echo $cy""
 echo
 sleep 1
+echo $i"===================================================="
+echo $cy"[1]"$pu" Install Bahan Dulu"
 echo "==================================================="
 echo $i"1. Install OSIF             "
 echo $i"==================================================="
@@ -256,6 +252,31 @@ echo $ku"100. Auto Visitor"
 echo $ku"==================================================="
 
 read -p"[ SELECT NUMBER] : " pil;
+
+if [ $pil = 1 ]
+then
+clear
+pkg install python2
+pip2 install urllib3 chardet certifi idna requests
+pkg install git
+pip2 install mechanize
+pkg install curl
+pip2 install termcolor
+pkg install ruby
+pkg install gem
+gem install lolcat
+pip2 install lolcat
+pkg install openssl
+pkg install php
+pkg install perl
+pkg install ruby cowsay toilet figlet
+pkg install neofetch
+pkg install figlet
+pkg install nano
+git clone https://github.com/usernewbie2/termux
+cd termux
+sh dreamss.sh
+fi
 
 if [ $pil = 1 ]
 then
