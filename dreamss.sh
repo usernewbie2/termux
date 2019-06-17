@@ -48,7 +48,7 @@ echo $cy""
 echo
 sleep 1
 echo $i"===================================================="
-echo $cy"[1]"$pu" Install Bahan Dulu"
+echo $cy"[0]"$pu" Install Bahan Dulu"
 echo "==================================================="
 echo $i"1. Install OSIF             "
 echo $i"==================================================="
@@ -278,7 +278,7 @@ cd termux
 sh dreamss.sh
 fi
 
-if [ $pil = 1 ]
+if [ $pil = 0 ]
 then
 clear
 sleep 1
