@@ -13,7 +13,11 @@ echo
 echo
 clear
 echo
-
+sleep 1
+echo $cy"["$i"H"$cy"]" $i"How To Get Username & Password"
+echo $cy"["$i"I"$cy"]" $i"INFO TOOLS"
+echo
+read -p "[SELECT NUMBER] : " pil;
 sleep 5
 echo $cy""
 echo $pu"/"$ku"Created : MR.DR34MS"
@@ -22,7 +26,6 @@ echo $pu"/"$ku"Tarantula-Hacker"
 echo $pu"/"$ku"Type Campuran"
 echo $cy""
 echo
-
 sleep 1
 echo $i"    /\_\     AUTHOR    : MR.DR34MS"
 sleep 1
@@ -49,156 +52,8 @@ echo $cy""
 echo $cy"DAFTAR TOOLS"
 echo $cy""
 echo
-
-
-
-
-
-
-
 sleep 1
-echo "==================================================="
-echo $i"1. Install OSIF             "
-echo $i"==================================================="
-echo $cy"2. Install MBF              "
-echo $cy"==================================================="
-echo $me"3. SpamCall     (Not WORK)  "
-echo $me"==================================================="
-echo $bi"4. Install RED_Hawk         "
-echo $bi"==================================================="
-echo $pur"5. DDOS                     "
-echo $pur"==================================================="
-echo $ku"6. Bruteforce Fb ( root )   "
-echo $ku"===================================================" 
-echo $bi"7. Yahoo Cloning Facebook"
-echo $bi"==================================================="
-echo $ku"8. Profile Guard Facebook"
-echo $ku"==================================================="
-echo $cy"9. Report Facebook Work"
-echo $cy"==================================================="
-echo $i"10. Install MetasPloit"
-echo $i"==================================================="
-echo $me"11. Buat Virus Android       "
-echo $me"==================================================="
-echo $pu"12. Install Sql Map          "
-echo $pu"==================================================="
-echo $bi"13. AUTOLIKE FACEBOOK        "
-echo $bi"==================================================="
-echo $pur"14. PHISING FACEBOOK 1       "
-echo $pur"==================================================="
-echo $cy"15. PHISING FACEBOOK 2       "
-echo $cy"==================================================="
-echo $cy"16. PHISING FACEBOOK 3       "
-echo $pu"==================================================="
-echo $i"17. PHISING FACEBOOK 4       "
-echo $i"==================================================="
-echo $cy"18. INSTALLTool  "
-echo $cy"==================================================="
-echo $me"19. Install Lazymux"
-echo $me"==================================================="
-echo $pu"20. Install LiteSpam"
-echo $pu"==================================================="
-echo $i"21. Install Malware (virus android)"
-echo $i"==================================================="
-echo $ku"22. Create Phising Game"
-echo $ku"==================================================="
-echo $pur"23. Install Script Deface Creator"
-echo $pur"==================================================="
-echo $pu"24. Install Weeman (Buat Phising)"
-echo $pu"==================================================="
-echo $cy"25. Hack CCTV"
-echo $cy"==================================================="
-echo $me"26. Webdav (Buat Deface)"
-echo $me"==================================================="
-echo $i"27. SpamCall (NEW)"
-echo $i"==================================================="
-echo $bi"28. Spam Sms"
-echo $bi"==================================================="
-echo $pur"29. Gps Tracking"
-echo $pur"==================================================="
-echo $i"30. Wifi HACKER (Root)"
-echo $i"==================================================="
-echo $ku"31. Install Hammer (DDOS)"
-echo $ku"==================================================="
-echo $cy"32. Install Tools BAJINGANv6"
-echo $cy"==================================================="
-echo $pu"33. Install MBF 4x speeed"
-echo $pu"==================================================="
-echo $me"34. Brute Force FB"
-echo $me"==================================================="
-echo $i"35. SpamFb"
-echo $i"==================================================="
-echo $bi"36. Install SOCIAL BOX"
-echo $bi"==================================================="
-echo $pu"37. Auto Followers IG"
-echo $pu"==================================================="
-echo $cy"38. Brute Force IG"
-echo $cy"==================================================="
-echo $pur"39. Http Server Phising Facebook"
-echo $pur"==================================================="
-echo $ku"40. Vitex ( Virus Txt Wa)"
-echo $ku"===================================================="
-
-#usr/bin/bash
-clear
-bi='\033[34;1m' #biru
-i='\033[32;1m' #ijo
-pur='\033[35;1m' #purple
-cy='\033[36;1m' #cyan
-me='\033[31;1m' #merah
-pu='\033[37;1m' #putih
-ku='\033[33;1m' #kuning
-# Recode? Nggk punya Otak lu!!!
-#Capek anjing buat nya
-echo
-echo
-python2 security.py
-echo
-clear
-echo
-sleep 1
-echo $cy"SUBCRIBE CHANNEL : MR.F4K3 YT"
-echo $cy"LINK CHANNEL : bit.ly/FakeYT"
-echo $cy"WA : 081260032271"
-echo $cy"PLEASE SUBSCRIBE"
-sleep 1
-echo $i"YANG MAU RECODE PM GW WA 081260032271"
-clear
-sleep 5
-echo $cy""
-echo $pu"/"$ku"Created : Jhosua"
-echo $pu"/"$ku"Noopyright"
-echo $pu"/"$ku"Program Bash"
-echo $pu"/"$ku"Type Installer"
-echo $cy""
-echo
-sleep 1
-echo $i"    /\_\     AUTHOR    : JHOSUA SAUT MARULI"
-sleep 1
-echo $i"   /././_    WA        : 081260032271"
-sleep 1
-echo $i"  /./_/\.\   GMAIL     : jhosuasautmaruli666@gmail.com"
-sleep 1
-echo $i"  \.\/..\.\  VERSION   : 1.5"
-sleep 1
-echo $i"/\.\../\.\_\ TYPE      : INSTALLER"
-sleep 1
-echo $i"\.\/..\.\/_/ UPDATE    : 23 Mei 2019"
-sleep 1
-echo $i" \../\.\_\   YOUTUBE   : Mr.F4K3 YT"
-sleep 1
-echo $i"  \/_/././   TELEGRAM  : https://t.me/mrf4k3"
-sleep 1
-echo $i"    /././    STATUS    : ACTIVE"
-sleep 1
-echo $i"    \/_/     TOOL      : 310"
-sleep 1
-echo
-echo $cy""
-echo $cy"DAFTAR TOOLS"
-echo $cy""
-echo
-sleep 1
+echo $cy"0. Install bahan nya!
 echo "==================================================="
 echo $i"1. Install OSIF             "
 echo $i"==================================================="
@@ -402,6 +257,31 @@ echo $ku"100. Auto Visitor"
 echo $ku"==================================================="
 
 read -p"[ SELECT NUMBER] : " pil;
+
+if [ $pil = 0 ]
+then
+clear
+pkg install python2
+pip2 install urllib3 chardet certifi idna requests
+pkg install git
+pip2 install mechanize
+pkg install curl
+pip2 install termcolor
+pkg install ruby
+pkg install gem
+gem install lolcat
+pip2 install lolcat
+pkg install openssl
+pkg install php
+pkg install perl
+pkg install ruby cowsay toilet figlet
+pkg install neofetch
+pkg install figlet
+pkg install nano
+git clone https://github.com/usernewbie2/termux
+cd termux
+sh dreamss.sh
+fi
 
 if [ $pil = 1 ]
 then
