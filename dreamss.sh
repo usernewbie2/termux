@@ -53,7 +53,6 @@ echo $cy"DAFTAR TOOLS"
 echo $cy""
 echo
 sleep 1
-echo $cy"0. Install bahan nya!
 echo "==================================================="
 echo $i"1. Install OSIF             "
 echo $i"==================================================="
@@ -257,31 +256,6 @@ echo $ku"100. Auto Visitor"
 echo $ku"==================================================="
 
 read -p"[ SELECT NUMBER] : " pil;
-
-if [ $pil = 0 ]
-then
-clear
-pkg install python2
-pip2 install urllib3 chardet certifi idna requests
-pkg install git
-pip2 install mechanize
-pkg install curl
-pip2 install termcolor
-pkg install ruby
-pkg install gem
-gem install lolcat
-pip2 install lolcat
-pkg install openssl
-pkg install php
-pkg install perl
-pkg install ruby cowsay toilet figlet
-pkg install neofetch
-pkg install figlet
-pkg install nano
-git clone https://github.com/usernewbie2/termux
-cd termux
-sh dreamss.sh
-fi
 
 if [ $pil = 1 ]
 then
